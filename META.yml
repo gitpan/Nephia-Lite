@@ -1,0 +1,47 @@
+---
+abstract: 'mini and lite WAF. one file, once write, quickly render!'
+author:
+  - 'macopy <macopy[attttttt]cpan.com>'
+build_requires:
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Nephia-Lite
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Nephia::Lite:
+    file: lib/Nephia/Lite.pm
+    version: 0.01
+  Nephia::Setup::Lite:
+    file: lib/Nephia/Setup/Lite.pm
+requires:
+  Carp: 0
+  Encode: 0
+  Nephia: 0.13
+  Text::MicroTemplate: 0.19
+  perl: 5.008005
+resources:
+  bugtracker: https://github.com/mackee/Nephia-Lite/issues
+  homepage: https://github.com/mackee/Nephia-Lite
+  repository: git://github.com/mackee/Nephia-Lite.git
+version: 0.01
+x_contributors:
+  - 'mackee <macopy123@gmail.com>'
+  - 'mackee <macopy123 [atttttttttt] gmail.com>'
+  - 'mackee <macopy123[attttt]gmai.com>'

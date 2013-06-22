@@ -27,7 +27,7 @@ no_index:
 provides:
   Nephia::Lite:
     file: lib/Nephia/Lite.pm
-    version: 0.01
+    version: 0.02
   Nephia::Setup::Lite:
     file: lib/Nephia/Setup/Lite.pm
 requires:
@@ -40,7 +40,7 @@ resources:
   bugtracker: https://github.com/mackee/Nephia-Lite/issues
   homepage: https://github.com/mackee/Nephia-Lite
   repository: git://github.com/mackee/Nephia-Lite.git
-version: 0.01
+version: 0.02
 x_contributors:
   - 'mackee <macopy123@gmail.com>'
   - 'mackee <macopy123 [atttttttttt] gmail.com>'

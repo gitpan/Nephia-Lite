@@ -11,9 +11,12 @@ t/00_compile.t
 t/01_return_json.t
 t/02_render_template.t
 t/03_submap.t
+t/04_plugin.t
 t/nephia-test_app/app.psgi
+t/nephia-test_app/lib/Nephia/Plugin/Bark.pm
 t/nephia-test_app/lib/SubApp.pm
 t/nephia-test_app/mainapp.psgi
 t/nephia-test_app/page.psgi
+t/nephia-test_app/plugin.psgi
 META.yml
 MANIFEST

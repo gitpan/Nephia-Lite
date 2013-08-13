@@ -27,20 +27,28 @@ no_index:
 provides:
   Nephia::Lite:
     file: lib/Nephia/Lite.pm
-    version: 0.04
+    version: 0.05
+  Nephia::Lite::Xslate:
+    file: lib/Nephia/Lite/Xslate.pm
+  Nephia::Plugin::Lite:
+    file: lib/Nephia/Plugin/Lite.pm
+    version: 0.05
+  Nephia::Plugin::Lite::Xslate:
+    file: lib/Nephia/Plugin/Lite/Xslate.pm
   Nephia::Setup::Lite:
     file: lib/Nephia/Setup/Lite.pm
+recommends:
+  Text::Xslate: 0
 requires:
   Carp: 0
   Encode: 0
-  Exporter: 0
-  Nephia: 0.25
+  Nephia: 0.37
   Text::MicroTemplate: 0.19
   perl: 5.008005
 resources:
   bugtracker: https://github.com/mackee/Nephia-Lite/issues
   homepage: https://github.com/mackee/Nephia-Lite
   repository: git://github.com/mackee/Nephia-Lite.git
-version: 0.04
+version: 0.05
 x_contributors:
   - 'mackee <macopy123[attttt]gmai.com>'
